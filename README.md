@@ -1,4 +1,6 @@
 
+
+
 ---
 
 ## 🌱 Misiunea verde
@@ -37,5 +39,4 @@ Acest proiect nu reprezintă sfat financiar.
 Criptomonedele sunt volatile — **cercetează înainte de a investi**.
 
 💛 **Fii parte din schimbare. Fii parte din MarioCoinAMG.**
-
 
