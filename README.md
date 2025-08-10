@@ -1,24 +1,41 @@
-# 🐢 MarioCoinAMG
-
-![Powered by Solana](https://img.shields.io/badge/Powered%20by-Solana-9945FF?style=for-the-badge&logo=solana)
-[![Buy on Pump.fun](https://img.shields.io/badge/Buy%20on-Pump.fun-F77D26?style=for-the-badge)](https://pump.fun/EmCyM99NzMErfSoQhx6hgPo7qNTdeF2eDmdqiEy8pump)
-![License MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-
-**Token comunitar pe Solana, cu misiune clară: susținerea proiectelor de energie verde.**  
-Logo-ul și schema de culori provin direct din identitatea vizuală originală MarioCoinAMG.
 
 ---
 
-## 🔗 Linkuri rapide
-- 🌐 **Website**: *(de completat după ce e online)*
-- 🛒 **Cumpără pe Pump.fun**: [Buy $AMG](https://pump.fun/EmCyM99NzMErfSoQhx6hgPo7qNTdeF2eDmdqiEy8pump)
-- 📢 **Twitter/X**: [@handle](https://twitter.com/handle)
-- 💬 **Telegram**: [MarioCoinAMG Chat](https://t.me/link_telegram)
-- 🎮 **Discord**: [MarioCoinAMG Server](https://discord.gg/link_discord)
+## 🌱 Misiunea verde
+MarioCoinAMG este creat de comunitate și direcționează o parte din resurse pentru:
+- Plantare arbori și reîmpăduriri
+- Proiecte de energie regenerabilă
+- Compensarea emisiilor de carbon (CO₂ offset)  
+
+📊 **Transparență totală:** publicăm rapoarte lunare și dovezi on‑chain ale impactului.
 
 ---
 
-## 📜 Contract
-**Rețea:** Solana  
-**Adresa contractului:**
+## 📊 Tokenomics
+- Supply total: **1,000,000,000 $AMG** *(actualizați dacă se schimbă)*
+- Taxe: **0%** (sau conform setărilor reale)
+- Lichiditate: **blocat** (cu link tranzacție)
+
+---
+
+## 🗺 Roadmap
+1. **Lansare**
+   - Publicare pe Pump.fun
+   - Website oficial online
+   - Creșterea comunității
+2. **Impact inițial**
+   - Primele donații verzi
+   - Publicarea primului raport
+3. **Extindere**
+   - Dashboard KPI public
+   - Noi inițiative verzi parteneriate
+
+---
+
+## ⚠️ Disclaimer
+Acest proiect nu reprezintă sfat financiar.  
+Criptomonedele sunt volatile — **cercetează înainte de a investi**.
+
+💛 **Fii parte din schimbare. Fii parte din MarioCoinAMG.**
+
 
