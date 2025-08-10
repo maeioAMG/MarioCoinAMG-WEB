@@ -96,3 +96,7 @@ footer {
         margin: 8px 0;
     }
 }
+nav a.active {
+    color: #00ff99;
+    text-decoration: underline;
+}
