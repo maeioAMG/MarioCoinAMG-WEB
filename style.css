@@ -1,53 +1,94 @@
+/* ==== CSS Variables for Green + Gold Theme ==== */
+:root {
+    --text: #F2B233;
+    --text-dim: #FFDFA3;
+    --background-primary: #0a1a0a;
+    --background-secondary: #1a2f1a;
+    --green-gradient-start: #1a5a1a;
+    --green-gradient-end: #2d8f2d;
+    --green-vibrant: #00ff66;
+    --shadow-dark: rgba(0, 0, 0, 0.8);
+}
+
 /* ==== Stil general ==== */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0f0f0f;
-    color: #ffffff;
+    background: linear-gradient(135deg, var(--green-gradient-start), var(--green-gradient-end));
+    background-attachment: fixed;
+    color: var(--text);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+}
+
+/* Theme classes */
+body.theme-green.full-gold {
+    background: linear-gradient(135deg, #1a5a1a, #2d8f2d, #1a5a1a);
+    background-size: 400% 400%;
+    animation: greenGradient 10s ease infinite;
+}
+
+@keyframes greenGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* ==== Header ==== */
 header {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #1E2A78, #9945FF);
+    background: linear-gradient(135deg, var(--green-gradient-start), var(--green-vibrant));
+    backdrop-filter: blur(10px);
 }
 
 header .logo {
-    width: 150px;
+    width: 160px;
     border-radius: 50%;
     margin-bottom: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 102, 0.3);
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: var(--text);
+    text-shadow: 2px 2px 4px var(--shadow-dark);
 }
 
 header p {
     font-size: 1.1rem;
-    color: #e0e0e0;
+    color: var(--text-dim);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
 }
 
 /* ==== Navigație ==== */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #1b1b1b;
+    background: linear-gradient(90deg, var(--background-secondary), var(--background-primary));
     padding: 10px;
+    backdrop-filter: blur(5px);
 }
 
 nav a {
-    color: #ffffff;
+    color: var(--text);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s, text-shadow 0.3s;
+    text-shadow: 1px 1px 2px var(--shadow-dark);
 }
 
 nav a:hover {
-    color: #9945FF;
+    color: var(--green-vibrant);
+    text-shadow: 0 0 8px var(--green-vibrant);
+}
+
+nav a.active {
+    color: var(--text-dim);
+    text-decoration: underline;
+    text-shadow: 0 0 6px var(--text);
 }
 
 /* ==== Secțiuni ==== */
@@ -55,11 +96,38 @@ section {
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
+    background: rgba(26, 47, 26, 0.3);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
 }
 
 h2 {
-    color: #9945FF;
+    color: var(--text);
     margin-bottom: 15px;
+    text-shadow: 2px 2px 4px var(--shadow-dark);
+}
+
+h3 {
+    color: var(--text-dim);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+}
+
+p {
+    color: var(--text-dim);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+    line-height: 1.6;
+}
+
+a {
+    color: var(--text);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--green-vibrant);
+    text-shadow: 0 0 6px var(--green-vibrant);
 }
 
 /* ==== Listă impact ==== */
@@ -71,15 +139,19 @@ ul {
 ul li {
     padding: 8px 0;
     font-size: 1.1rem;
+    color: var(--text-dim);
+    text-shadow: 1px 1px 2px var(--shadow-dark);
 }
 
 /* ==== Footer ==== */
 footer {
     text-align: center;
-    background-color: #1b1b1b;
-    color: #aaaaaa;
+    background: linear-gradient(90deg, var(--background-secondary), var(--background-primary));
+    color: var(--text-dim);
     padding: 15px;
     font-size: 0.9rem;
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+    backdrop-filter: blur(5px);
 }
 
 /* ==== Responsive ==== */
@@ -96,7 +168,60 @@ footer {
         margin: 8px 0;
     }
 }
-nav a.active {
-    color: #00ff99;
-    text-decoration: underline;
+
+/* ==== Community page specific styles ==== */
+.community-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.community-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.community-card {
+    background: linear-gradient(135deg, var(--background-secondary), var(--green-gradient-start));
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(242, 178, 51, 0.2);
+}
+
+.community-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 255, 102, 0.2);
+}
+
+.community-card img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(1.2) contrast(1.1);
+}
+
+.community-card a {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px var(--shadow-dark);
+}
+
+.community-card a:hover {
+    color: var(--green-vibrant);
+    text-shadow: 0 0 8px var(--green-vibrant);
+}
+
+/* ==== Scroll to top button ==== */
+#scrollTopBtn {
+    background: linear-gradient(135deg, var(--text), var(--text-dim)) !important;
+    color: var(--background-primary) !important;
+    text-shadow: none !important;
+    font-weight: bold !important;
 }

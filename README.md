@@ -1,3 +1,13 @@
+# 🐢 MarioCoinAMG
+
+Token comunitar pe Solana — Energie Verde • Reîmpădurire • Impact Transparent
+
+## 🎨 Teme și Brand
+Actualizat cu noua temă verde + aur (Green + Gold Theme):
+- **Culori principale:** Verde vibrant (#1a5a1a, #2d8f2d, #00ff66) cu aur (#F2B233, #FFDFA3)
+- **Text:** Complet în nuanțe de aur cu umbre pentru accesibilitate
+- **Design:** Gradient verde animat cu efecte de blur și transparență
+
 
 
 

@@ -1,3 +1,17 @@
-<img src="assets/logo.png" alt="MarioCoinAMG Logo" width="200">
-<link rel="icon" type="image/png" href="assets/favicon.png">
+# Logo Placeholder
 
+This file should contain the MarioCoinAMG logo image (logo.png).
+
+## Logo Requirements:
+- File: logo.png (PNG format)
+- Recommended size: 160x160 pixels or larger
+- Design: Turtle with gold chain & medallion (as per brand palette)
+- Colors: Green and gold theme (#1a5a1a, #2d8f2d, #F2B233, #FFDFA3)
+
+## Instructions:
+1. Replace this text file with the actual logo.png image
+2. The logo should be a PNG file with transparent background
+3. Ensure the logo matches the green + gold brand theme
+
+## Fallback:
+If the logo file is missing, the existing JavaScript in script.js will handle the fallback gracefully.
